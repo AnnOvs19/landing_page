@@ -1,0 +1,128 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+    position: fixed;
+    z-index: 3;
+}
+
+.header-box {
+    width: 1097px;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-box img {
+    width: 186px;
+    height: 58px;
+    margin-top: -14px;
+}
+
+.header-box img:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.header-box__nav {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.header-box__nav li:hover {
+    color: #4452FE;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.header-box__login {
+    height: 52px;
+    padding: 20px 36px;
+    border: 1px solid var(--light-text, #FFF);
+    background: var(--dark-background, #181818);
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-box__login:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+    background-color: #4452FE;
+    transform: scale(1.1);
+}
+
+.menu-burger {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .header-box {
+        padding: 20px 35px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header-box__nav {
+        display: none;
+    }
+
+    .header-box__menu {
+        display: flex;
+    }
+
+    .header-box__menu img {
+        margin-top: 0;
+    }
+
+
+    .menu-burger {
+        display: flex;
+        width: 66px !important;
+        height: 53px !important;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width:426px) {
+    .header-box {
+        padding: 15px 5px 15px 12px;
+    }
+
+    .header-box__menu img {
+        margin-left: 0px;
+    }
+
+    .header-box__login {
+        display: none;
+    }
+}
+
+@media (max-width:321px) {
+    .header-box {
+        padding: 10px 2px 10px 9px;
+    }
+}

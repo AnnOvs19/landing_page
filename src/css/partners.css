@@ -1,0 +1,34 @@
+.partners {
+    /* display: flex; */
+    flex-direction: column;
+    margin-top: 210px;
+    display: none;
+}
+
+.partners-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.partners-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners-body__line {
+    padding: 50px 0 50px 0;
+    gap: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-body__line img:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
+}

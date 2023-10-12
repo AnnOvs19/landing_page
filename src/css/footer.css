@@ -1,0 +1,84 @@
+.footer {
+    width: 100%;
+    padding: 107px 0 88px 0;
+    display: none;
+}
+
+.footer-box {
+    width: 1097px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+}
+
+.footer-box__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 75px
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-box__nav p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    margin-bottom: 40px;
+}
+
+.footer-box__nav span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 19px;
+}
+
+.footer-box__nav span:hover {
+    color: #4452FE;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.community-contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.community-contacts p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.community-contacts p:hover {
+    color: #4452FE;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.community-network {
+    margin: 10px 0 10px 0;
+    display: flex;
+    gap: 24px;
+}
+
+.community-network img:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.1);
+}

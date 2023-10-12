@@ -1,0 +1,39 @@
+.opentype {
+    /* display: flex; */
+    align-items: center;
+    margin-top: 210px;
+    justify-content: center;
+    border-radius: 33px;
+    background: #343434;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    padding: 35px;
+    width: 1219px;
+    margin: 0 auto;
+    gap: 86px;
+    margin-bottom: 180px;
+    display: none;
+
+}
+
+.opentype-text {
+    width: 500px;
+    margin: 0 0 0 59px;
+    display: flex;
+    gap: 37px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.opentype-text p {
+    width: 500px;
+}
+
+.opentype-text button {
+    width: 232px;
+    display: flex;
+    justify-content: center;
+}
+
+.opentype img {
+    border-radius: 20px;
+}

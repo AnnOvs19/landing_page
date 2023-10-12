@@ -1,0 +1,38 @@
+.gallery {
+    /* display: flex; */
+    flex-direction: column;
+    margin-top: 210px;
+    display: none;
+}
+
+.gallery-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 44px;
+
+}
+
+.gallery-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-body__line {
+    margin: 44px 0 44px 0;
+    display: flex;
+    gap: 33px;
+}
+
+
+.gallery-body__line img {
+    border-radius: 15px;
+}
+
+.gallery-body__line img:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1.04);
+}
