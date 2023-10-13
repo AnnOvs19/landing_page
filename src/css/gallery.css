@@ -1,8 +1,8 @@
 .gallery {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     margin-top: 210px;
-    display: none;
+
 }
 
 .gallery-head {
@@ -35,4 +35,19 @@
     cursor: pointer;
     transition: 0.2s;
     transform: scale(1.04);
+}
+
+
+@media (max-width:1199px) {
+    .gallery-body__line:nth-child(1) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .gallery-body__line:nth-child(2) {
+        display: none;
+    }
 }

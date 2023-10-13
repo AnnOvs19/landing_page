@@ -1,5 +1,5 @@
 .opentype {
-    /* display: flex; */
+    display: flex;
     align-items: center;
     margin-top: 210px;
     justify-content: center;
@@ -11,7 +11,6 @@
     margin: 0 auto;
     gap: 86px;
     margin-bottom: 180px;
-    display: none;
 
 }
 
@@ -36,4 +35,77 @@
 
 .opentype img {
     border-radius: 20px;
+}
+
+.opentype img:nth-child(2) {
+    display: none;
+}
+
+
+@media (max-width: 1199px) {
+    .opentype {
+        width: 100%;
+        border-radius: 0;
+        flex-direction: column;
+        padding: 100px 0;
+        gap: 60px;
+    }
+
+    .opentype-text {
+        margin: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .opentype img {
+        border-radius: 0px;
+    }
+
+    .opentype img:nth-child(1) {
+        display: none;
+    }
+
+    .opentype img:nth-child(2) {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .opentype {}
+
+    .opentype-text p {
+        width: 480px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .opentype-text {
+        width: 100%;
+    }
+
+    .opentype-text p {
+        width: 80%;
+    }
+
+    .opentype img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 376px) {
+    .opentype-text p {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 321px) {
+    .opentype {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .opentype-text p {
+        font-size: 38px;
+    }
 }

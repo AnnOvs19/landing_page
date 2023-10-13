@@ -1,8 +1,7 @@
 .testimonials {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     margin-top: 210px;
-    display: none;
 }
 
 .testimonials-head {
@@ -62,4 +61,10 @@
 
 .testimonials-item-head img {
     margin-right: 23px;
+}
+
+@media (max-width: 426px) {
+    .testimonials-body__item {
+        padding: 30px;
+    }
 }

@@ -1,8 +1,7 @@
 .partners {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     margin-top: 210px;
-    display: none;
 }
 
 .partners-head {
@@ -31,4 +30,30 @@
     cursor: pointer;
     transition: 0.2s;
     transform: scale(1.1);
+}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 768px) {
+    .partners-body__line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+}
+
+@media (max-width: 426px) {
+    .partners-body__line {
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .partners-body__line {
+        width: 70%;
+        gap: 35px;
+    }
 }

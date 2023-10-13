@@ -68,12 +68,6 @@
     }
 }
 
-@media (max-width: 768px) {
-    .contents {}
-
-
-}
-
 @media (max-width: 426px) {
     .contents {
         margin-top: 150px;
