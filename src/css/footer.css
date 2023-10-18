@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     padding: 107px 0 88px 0;
-    display: none;
+    display: flex;
 }
 
 .footer-box {
@@ -81,4 +81,115 @@
     cursor: pointer;
     transition: 0.2s;
     transform: scale(1.1);
+}
+
+@media (max-width: 1199px) {
+    .footer-box {
+        width: 100%;
+        padding: 20px 50px;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .footer-box__nav {
+        gap: 70px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 107px 0 40px 0;
+    }
+
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-box__community {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .community-contacts {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .footer {
+        padding: 0px 0 40px 0;
+    }
+
+    .footer-box {
+        padding: 25px 75px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .footer-box__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .nav-item {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .footer-box__nav p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .footer-box__nav span {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .footer-box__community {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .community-contacts {
+        margin-bottom: 10px;
+    }
+
+    .community-contacts img {
+        margin-left: -10px;
+    }
+
+    .community-contacts:nth-child(2) img {
+        margin-left: -4px !important;
+    }
+
+    .community-contacts p {
+        font-size: 15px;
+    }
+
+    .community-network {
+        margin: 5px 0 5px 0;
+    }
+
+
+}
+
+@media (max-width: 321px) {
+    .footer-box {
+        padding: 25px 55px;
+        gap: 40px;
+    }
 }
