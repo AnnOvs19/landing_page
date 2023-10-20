@@ -155,7 +155,19 @@ body {
         width: 140%;
     }
 
+    .base-input {
+        width: 94%;
+        border-radius: 6px;
+        border: 1px solid #191919;
+        background: #191919;
+        padding: 13px;
+    }
+
+    .base-input input {
+        font-size: 17px;
+    }
 }
+
 
 @media (max-width: 321px) {
     .base-desc {

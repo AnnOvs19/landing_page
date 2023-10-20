@@ -57,3 +57,21 @@
     cursor: pointer;
     transition: 0.2s;
 }
+
+@media (max-width: 426px) {
+    .submit-login {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .modal-content {
+        gap: 25px;
+        padding: 40px 40px 45px 40px;
+        width: 70%;
+    }
+
+    .modal-content span {
+        font-size: 14px;
+    }
+}
