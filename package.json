@@ -1,0 +1,15 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "Мой первый проект на npm",
+  "main": "modal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open"
+  },
+  "author": "Anna Ovsyanikova",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.0"
+  }
+}
